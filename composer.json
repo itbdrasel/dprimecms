@@ -1,0 +1,50 @@
+{
+    "name": "sourcebit/dprimecms",
+    "type": "project",
+	  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "sourcebit/dprimecms",
+        "version": "1.0.0",
+        "type": "sourcebit-dprimecms",
+        "source": {
+          "url": "https://github.com/itbdrasel/dprimecms",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+  ],
+    "autoload": {
+        "psr-4": {
+            "Sourcebit\\Dprimecms\\": "src/",
+            "Sourcebit\\Dprimecms\\Public\\": "public/"
+        }
+
+    },
+    "authors": [
+        {
+            "name": "SourceBit",
+            "email": "sourcebit@sourcebit.net"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "cartalyst/sentinel": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sourcebit\\Dprimecms\\Providers\\DprimcmsProvider"
+            ],
+            "aliases": {
+                "Auth": "Sourcebit\\Dprimecms\\Facades\\Auth",
+                "Content": "Sourcebit\\Dprimecms\\Facades\\Content"
+            }
+        }
+    },
+    "scripts": {
+
+    }
+}

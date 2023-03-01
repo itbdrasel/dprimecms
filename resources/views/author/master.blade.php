@@ -1,0 +1,6 @@
+@include('sourcebit::author.layouts.header')
+@include('sourcebit::author.layouts.top_bar')
+@include('sourcebit::author.layouts.sidebar_left')
+@include('sourcebit::author.layouts.breadcrumb')
+@yield('content')
+@include('sourcebit::author.layouts.footer')

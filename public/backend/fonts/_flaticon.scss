@@ -1,0 +1,150 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 27/02/2021 13:08
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-fork:before { content: "\f100"; }
+.flaticon-list-interface-symbol:before { content: "\f101"; }
+.flaticon-list:before { content: "\f102"; }
+.flaticon-gift-list:before { content: "\f103"; }
+.flaticon-to-do-list:before { content: "\f104"; }
+.flaticon-list-1:before { content: "\f105"; }
+.flaticon-search:before { content: "\f106"; }
+.flaticon-shopping-list:before { content: "\f107"; }
+.flaticon-log-in:before { content: "\f108"; }
+.flaticon-log-in-1:before { content: "\f109"; }
+.flaticon-password:before { content: "\f10a"; }
+.flaticon-writing:before { content: "\f10b"; }
+.flaticon-edit-list:before { content: "\f10c"; }
+.flaticon-edit:before { content: "\f10d"; }
+.flaticon-edit-1:before { content: "\f10e"; }
+.flaticon-error:before { content: "\f10f"; }
+.flaticon-forbidden:before { content: "\f110"; }
+.flaticon-close:before { content: "\f111"; }
+.flaticon-cancel:before { content: "\f112"; }
+.flaticon-signal:before { content: "\f113"; }
+.flaticon-guests-book:before { content: "\f114"; }
+.flaticon-star:before { content: "\f115"; }
+.flaticon-guest-star:before { content: "\f116"; }
+.flaticon-guest:before { content: "\f117"; }
+.flaticon-star-1:before { content: "\f118"; }
+.flaticon-bed:before { content: "\f119"; }
+.flaticon-bed-1:before { content: "\f11a"; }
+.flaticon-desk:before { content: "\f11b"; }
+.flaticon-search-1:before { content: "\f11c"; }
+.flaticon-person:before { content: "\f11d"; }
+.flaticon-signal-1:before { content: "\f11e"; }
+.flaticon-24-hours:before { content: "\f11f"; }
+.flaticon-call-center:before { content: "\f120"; }
+.flaticon-technical-support:before { content: "\f121"; }
+.flaticon-customer:before { content: "\f122"; }
+.flaticon-headphone:before { content: "\f123"; }
+.flaticon-vacuum-cleaner:before { content: "\f124"; }
+.flaticon-mop:before { content: "\f125"; }
+.flaticon-booking:before { content: "\f126"; }
+.flaticon-booking-1:before { content: "\f127"; }
+.flaticon-reception:before { content: "\f128"; }
+.flaticon-food-and-restaurant:before { content: "\f129"; }
+.flaticon-cancel-1:before { content: "\f12a"; }
+.flaticon-city-hall:before { content: "\f12b"; }
+.flaticon-restaurant:before { content: "\f12c"; }
+.flaticon-dinner:before { content: "\f12d"; }
+.flaticon-restaurant-1:before { content: "\f12e"; }
+.flaticon-storage:before { content: "\f12f"; }
+.flaticon-boxes:before { content: "\f130"; }
+.flaticon-discount:before { content: "\f131"; }
+.flaticon-calendar:before { content: "\f132"; }
+.flaticon-hotel:before { content: "\f133"; }
+.flaticon-price-tag:before { content: "\f134"; }
+.flaticon-price-tag-1:before { content: "\f135"; }
+.flaticon-pay:before { content: "\f136"; }
+    
+    $font-Flaticon-fork: "\f100";
+    $font-Flaticon-list-interface-symbol: "\f101";
+    $font-Flaticon-list: "\f102";
+    $font-Flaticon-gift-list: "\f103";
+    $font-Flaticon-to-do-list: "\f104";
+    $font-Flaticon-list-1: "\f105";
+    $font-Flaticon-search: "\f106";
+    $font-Flaticon-shopping-list: "\f107";
+    $font-Flaticon-log-in: "\f108";
+    $font-Flaticon-log-in-1: "\f109";
+    $font-Flaticon-password: "\f10a";
+    $font-Flaticon-writing: "\f10b";
+    $font-Flaticon-edit-list: "\f10c";
+    $font-Flaticon-edit: "\f10d";
+    $font-Flaticon-edit-1: "\f10e";
+    $font-Flaticon-error: "\f10f";
+    $font-Flaticon-forbidden: "\f110";
+    $font-Flaticon-close: "\f111";
+    $font-Flaticon-cancel: "\f112";
+    $font-Flaticon-signal: "\f113";
+    $font-Flaticon-guests-book: "\f114";
+    $font-Flaticon-star: "\f115";
+    $font-Flaticon-guest-star: "\f116";
+    $font-Flaticon-guest: "\f117";
+    $font-Flaticon-star-1: "\f118";
+    $font-Flaticon-bed: "\f119";
+    $font-Flaticon-bed-1: "\f11a";
+    $font-Flaticon-desk: "\f11b";
+    $font-Flaticon-search-1: "\f11c";
+    $font-Flaticon-person: "\f11d";
+    $font-Flaticon-signal-1: "\f11e";
+    $font-Flaticon-24-hours: "\f11f";
+    $font-Flaticon-call-center: "\f120";
+    $font-Flaticon-technical-support: "\f121";
+    $font-Flaticon-customer: "\f122";
+    $font-Flaticon-headphone: "\f123";
+    $font-Flaticon-vacuum-cleaner: "\f124";
+    $font-Flaticon-mop: "\f125";
+    $font-Flaticon-booking: "\f126";
+    $font-Flaticon-booking-1: "\f127";
+    $font-Flaticon-reception: "\f128";
+    $font-Flaticon-food-and-restaurant: "\f129";
+    $font-Flaticon-cancel-1: "\f12a";
+    $font-Flaticon-city-hall: "\f12b";
+    $font-Flaticon-restaurant: "\f12c";
+    $font-Flaticon-dinner: "\f12d";
+    $font-Flaticon-restaurant-1: "\f12e";
+    $font-Flaticon-storage: "\f12f";
+    $font-Flaticon-boxes: "\f130";
+    $font-Flaticon-discount: "\f131";
+    $font-Flaticon-calendar: "\f132";
+    $font-Flaticon-hotel: "\f133";
+    $font-Flaticon-price-tag: "\f134";
+    $font-Flaticon-price-tag-1: "\f135";
+    $font-Flaticon-pay: "\f136";
