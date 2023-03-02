@@ -13,6 +13,7 @@ use \Sourcebit\Dprimecms\Http\Middleware\AdminMiddleware;
 use Sourcebit\Dprimecms\Http\Middleware\AuthxMiddleware;
 use Sourcebit\Dprimecms\Http\Middleware\UserMiddleware;
 use Illuminate\Foundation\AliasLoader;
+use Sourcebit\Dprimecms\Console\InstallDprimeCmsPackage;
 
 class DependencyProviders extends ServiceProvider
 {
@@ -70,6 +71,7 @@ class DependencyProviders extends ServiceProvider
 //        $this->mergeConfigFrom(__DIR__.'/../config/cartalyst.sentinel.php', 'sentinel');
         $this->registerAliases();
 
+        $this->installPackage()
     }
 
 
@@ -84,6 +86,16 @@ class DependencyProviders extends ServiceProvider
         foreach ($aliases as $alias => $class) {
             $loader = AliasLoader::getInstance();
             $loader->alias($class, $alias);
+        }
+    }
+
+    public function installPackage(){
+        if ($this->app->runningInConsole()) {
+            // publish config file
+
+            $this->commands([
+                InstallDprimeCmsPackage::class,
+            ]);
         }
     }
 }

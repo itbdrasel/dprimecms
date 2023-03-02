@@ -17,7 +17,11 @@ class InstallDprimeCmsPackage extends Command
 
         $this->call('vendor:publish', [
             '--provider' => "Sourcebit\Dprimecms\Providers\DependencyProviders",
-            '--tag' => ["config","public"]
+            '--tag' => "config"
+        ]);
+        $this->call('vendor:publish', [
+            '--provider' => "Sourcebit\Dprimecms\Providers\DependencyProviders",
+            '--tag' => "public"
         ]);
 
         $this->info('Installed DprimeCMS');
